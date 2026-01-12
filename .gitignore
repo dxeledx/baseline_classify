@@ -1,0 +1,54 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.conda/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ML / datasets / checkpoints (keep code, ignore artifacts)
+*.mat
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
+*.pth.tar*
+*.onnx
+*.tflite
+*.pb
+*.pkl
+*.joblib
+*.tar
+*.tar.gz
+*.tgz
+*.log
+*.model
+*.model2
+
+# Common output dirs
+**/results/
+**/result/
+**/runs/
+**/outputs/
+**/output/
+**/checkpoints/
+**/checkpoint/
+**/logs/
+**/wandb/
+**/tensorboard/
+**/lightning_logs/
+
+# Pretrained / saved models (various repos)
+**/pretrained/
+**/pretrained_models/
+**/model_save/

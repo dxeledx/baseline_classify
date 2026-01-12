@@ -1,0 +1,13 @@
+# Python 3.10 compatible
+mne==1.8.0
+numpy==1.26.4
+scikit-learn==1.5.2
+moabb==0.5.0
+torch==2.3.0
+braindecode==0.8.1
+PyYAML==6.0.2
+pytorch-lightning==2.3.0
+einops==0.8.1
+torchvision==0.18.0
+scipy==1.13.1
+matplotlib==3.9.0

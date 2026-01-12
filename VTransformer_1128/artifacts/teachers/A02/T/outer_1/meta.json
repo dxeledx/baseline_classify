@@ -1,0 +1,31 @@
+{
+  "subject": "A02",
+  "session": "T",
+  "outer_fold": 1,
+  "train_size": 230,
+  "teachers": [
+    "csp_lda",
+    "riemannian_lr",
+    "cemd_lr",
+    "stft_lr"
+  ],
+  "teacher_metrics": [
+    {
+      "name": "csp_lda",
+      "acc": 0.5608695652173913
+    },
+    {
+      "name": "riemannian_lr",
+      "acc": 0.5434782608695652
+    },
+    {
+      "name": "cemd_lr",
+      "acc": 0.5434782608695652
+    },
+    {
+      "name": "stft_lr",
+      "acc": 0.5260869565217391
+    }
+  ],
+  "ensemble_accuracy": 0.6
+}
